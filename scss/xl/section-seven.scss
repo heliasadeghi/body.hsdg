@@ -1,0 +1,130 @@
+.section-seven {
+  width: 100%;
+  height: 946px;
+  background: url(../../img/hp-background-3.jpg);
+  background-attachment: fixed;
+  > div {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    > h3 {
+      margin-bottom: 40px;
+      margin-top: 30px;
+      font-family: "fontt", sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+      letter-spacing: 1px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      > span {
+        font-family: "fontt", sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #22368b;
+        text-transform: capitalize;
+      }
+    }
+    > div.categori {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      width: 100%;
+      height: 614px;
+      //   background-color: antiquewhite;
+      > div {
+        height: inherit;
+        position: relative;
+        // background-color: #22368b;
+        // margin-left: 12px !important;
+        box-sizing: border-box;
+   width: 30%;
+        display: flex;
+        flex-flow: column wrap;
+        &:hover {
+          > a.side-one {
+            background: url(../../img/sevenbackp4.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            > img {
+              background-position: center;
+              -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
+            }
+          }
+          > div.side-two > button.shop {
+            background-color: #3b60ff;
+            border:2px solid #3b60ff;
+          }
+          > img.under {
+            transform: rotate(20deg) !important;
+          }
+        }
+        > a.side-one {
+          position: absolute;
+          top: 0;
+          width: 356px;
+          display: flex;
+          height: 463.117px;
+          //   background-color: aliceblue;
+          background-image: url(../../img/hi.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          > img {
+            width: 100%;
+            height: 100%;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+          }
+        }
+        > img.under {
+          position: absolute;
+          bottom: 85px;
+          left: -25px;
+          width: 118px;
+          height: 160px;
+        }
+        > div.side-two {
+          display: flex;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 150.883px;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column wrap !important;
+          > h3 {
+            display: block;
+            font-family: "fontt", sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+            margin: 20px 0px;
+          }
+          > button.shop {
+            padding: 16px 80px;
+            border: 2px solid white;
+            background-color: black;
+            font-family: "fontt", sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            align-items: center;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "fontt";
+  src: url(/font/3/RBNo2-Light-Alternative.eot);
+  src: url(/font/3/RBNo2-Light-Alternative.woff);
+  src: url(/font/3/RBNo2-Light-Alternative.woff2);
+  src: url(/font/3/RBNo2-Light-Alternative.ttf);
+}
+.setion-one {
+  margin: 0px;
+  width: 100%;
+  position: relative;
+  top: 70px;
+  height: 831px;
+  background: url("../../img/hp-banner-desktop-2v2.jpg"), fixed, center,
+    top/cover;
+  background-repeat: no-repeat;
+  background-size: auto;
+  align-items: center;
+  background-position: top;
+  background-attachment: fixed;
+  > div {
+    height: 320px;
+    justify-content: start !important;
+    > h1 {
+      font-size: 70px;
+      font-family: "fontt", sans-serif, bold;
+      font-weight: bolder;
+      text-transform: uppercase;
+      margin: 0 !important;
+      padding: 0 !important
+ ;
+    }
+    > p {
+      font-family: "fontfont", sans-serif, normal;
+      font-weight: bolder;
+      text-transform: capitalize;
+      font-size: 28px;
+      font-weight: bolder;
+      margin: 0 !important;
+      letter-spacing: 2px;
+      padding: 0 !important;
+    }
+    > button {
+      padding: 16px 80px;
+      height: 62px;
+      width: 250px;
+      margin: 0px !important;
+      font-family: "fontt", sans-serif, bold;
+      font-weight: bolder;
+      text-transform: uppercase;
+      font-size: 24x;
+      margin-top: 20px;
+      letter-spacing: 2px;
+      &:hover {
+        background-color: #101c50;
+        border: 2px solid #0b5ed7;
+        color: #0b5ed7;
+      }
+    }
+  }
+}
+/*Shabet Bekheir🖐 */

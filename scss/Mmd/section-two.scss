@@ -1,0 +1,85 @@
+section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  >div.section-two {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    height: 110px;
+    display: flex;
+
+   
+ > div.image-section-two {
+      width: 100%;
+      height: 100%;
+      background: url("../../img/5-31Upto30offperformanceFavorites-1920x300.jpg");
+      background-repeat: no-repeat;
+      background-size: auto;
+      align-items: center;
+    background-size: cover;
+      background-position: center;
+      // background-position: center;
+    }
+  }
+  > div.two {
+    width: 100%;
+    height: 276px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-image: url(../../img/hp-background-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    > div.icon-1 {
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      position: relative;
+      > img {
+        width: 91.8px;
+        height: 91.8px;
+        &:hover {
+          width: 99px;
+          height: 99px;
+          transform: rotate(-20deg);
+          // transition: all 400ms;
+        }
+      }
+      > h3 {
+        margin-top: 30px;
+        font-family: "fontt", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        > span {
+          font-family: "fontt", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          letter-spacing: 2px;
+          text-align: center;
+          color: white;
+          text-transform: capitalize;
+        }
+      }
+      > div.icon-2 {
+        width: 1px;
+        height: 175px;
+        color: white;
+        background-color: white;
+        position: absolute;
+        right: -30px;
+        opacity: 0.2;
+      }
+    }
+  }
+}

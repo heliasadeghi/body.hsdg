@@ -37,7 +37,7 @@
       flex-flow: row wrap;
       width: 100%;
       column-gap: 10px;
-      height: 424px;
+      height: 484px;
       //   background-color: antiquewhite;
       > div {
         height: inherit;
@@ -86,17 +86,17 @@
         }
         > img.under {
           position: absolute;
-          bottom: 85px;
+          bottom:163px;
           left: -25px;
-          width: 118px;
-          height: 160px;
+          width: 83px;
+          height: 108px;
         }
         > div.side-two {
           display: flex;
           position: absolute;
           bottom: -40px;
           width: 100%;
-          height: 150.883px;
+          height: 260px;
           justify-content: center;
           align-items: center;
           flex-flow: column wrap !important;
@@ -104,7 +104,7 @@
             display: block;
             font-family: "fontt", sans-serif;
             font-weight: bold;
-            font-size: 27px;
+            font-size: 20px;
             letter-spacing: 1px;
             text-align: center;
             text-transform: uppercase;

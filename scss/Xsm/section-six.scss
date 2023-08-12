@@ -55,6 +55,7 @@
         }
       }
       > p {
+display: none;
         font-family: "fontfont", sans-serif;
         font-weight: bold;
         color: rgb(0, 0, 0);
@@ -62,14 +63,14 @@
       }
       > button.six {
         // width:249px ;
-        font-size: 24px;
+        font-size:18px;
         margin-top: 10px;
         font-family: "fontt", sans-serif;
         font-weight: bold;
         background-color: #3b60ff;
         border-radius: 5px;
         border: 0;
-        padding: 16px 60px;
+        padding: 10px 30px;
         text-transform: uppercase;
         color: white;
       }
